@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="intro">
+            <h1>Contact Form</h1>
+            <p>Please fill all the texts in the fields.</p>
+        </section>
+        <section>
+            <form name="Contact_form">
+                <div class="align">
+                    <p>Your Name :</p>
+                    <input type="text" name="Name" placeholder="Your Full Name" required>
+                </div>
+                <div class="align">
+                    <p>Your Email :</p>
+                    <input type="email" name="Email" placeholder="Valid Email Address" required>
+                </div>
+                <div class="align">
+                    <p>Message :</p>
+                    <textarea rows="8" cols="10" name="Message" placeholder="Your Message to Us" ></textarea>
+                </div>
+                <div class="align">
+                    <p>Subject:</p>
+                    <select>
+                        <option name="Subject" value="Job Inquiry">Job Inquiry</option>
+                        <option name="Subject" value="Medical Inquiry">Medical Inquiry</option>
+                        <option name="Subject" value="Educational purposes">Educational purposes</option>
+                        <option name="Subject" value="Legal favors">Legal favors</option>
+                    </select>
+                    <input type="submit" name="Submit_button" value="Send">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
