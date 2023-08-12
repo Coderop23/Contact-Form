@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(250, 235, 215, 0.842);
+}
+
+.intro {
+    padding: 20px 40px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #00CC66;
+    color: #333;
+}
+
+.align {
+    margin: 15px 30px;
+}
+
+.align input,
+textarea,
+select {
+    font: inherit;
+    padding: 5px 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.align input[type="submit"] {
+    width: auto;
+    background-color: limegreen;
+    border-radius: 4px;
+}
